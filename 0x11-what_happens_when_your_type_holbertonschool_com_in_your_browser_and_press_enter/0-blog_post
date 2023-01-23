@@ -1,1 +1,26 @@
-https://medium.com/@ocontreras.sf/what-happens-when-you-type-https-www-linkedin-com-5fbb1bf830b3
+
+https://www.linkedin.com/pulse/when-you-type-httpswwwgooglecom-your-browser-press-enter-nyamema
+
+
+When you type https://www.google.com in your browser and press Enter, the following process takes place:
+
+DNS request: The first step is a DNS (Domain Name System) request. The browser sends a request to the DNS server to resolve the domain name "google.com" to an IP address. The DNS server looks up the IP address associated with the domain name and returns it to the browser.
+
+TCP/IP: Once the browser has the IP address, it establishes a TCP (Transmission Control Protocol) connection with the server. The browser sends a SYN (Synchronize) packet to the server, and the server responds with a SYN-ACK (Synchronize-Acknowledgment) packet. The browser then acknowledges the server's response with an ACK (Acknowledgment) packet, completing the three-way handshake and establishing a reliable connection.
+
+Firewall: The browser's request may pass through a firewall before reaching the server. The firewall checks the request against a set of rules to determine whether to allow or block it.
+
+HTTPS/SSL: The browser sends an HTTPS (HTTP Secure) request to the server, which is encrypted using SSL (Secure Sockets Layer) or its successor, TLS (Transport Layer Security). The server then responds with an HTTPS/SSL-encrypted response.
+
+Load-balancer: The server may be behind a load-balancer, which distributes incoming requests across multiple servers. The load-balancer uses various algorithms to determine which server to forward the request to.
+
+Web server: The request is then sent to a web server, which processes the request and generates a response. The web server uses the HTTP protocol to communicate with the browser.
+
+Application server: The web server may pass the request on to an application server, which runs the code that generates the response. The application server may also interact with a database to retrieve or store information.
+
+Database: The application server may interact with a database to retrieve or store information. The database stores the data and allows for efficient querying and retrieval.
+
+All these steps happen in milliseconds, allowing you to access the google website.
+
+
+
