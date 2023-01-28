@@ -1,5 +1,6 @@
-Host 35.227.39.114
-     HostName 35.227.39.114
-     User ubuntu
-     IdentityFile ~/.ssh/holberton
-     PasswordAuthentication no
+Host Bendito
+    HostName 34.139.205.239
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
+    PubkeyAuthentication yes
