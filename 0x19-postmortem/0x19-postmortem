@@ -1,0 +1,33 @@
+Duration: March 1, 2023, 2:00 PM to March 1, 2023, 3:30 PM EAT (Eastern Africa Time)
+Impact: Users were unable to access the website, and those who managed to access it experienced slow load times. Approximately 80% of users were affected.
+
+Root Cause: A surge in traffic to the website caused the server to crash.
+
+Timeline:
+
+2:00 PM: Issue detected when the website started to load slowly.
+2:05 PM: The monitoring system alerted the engineering team.
+2:10 PM: The team started investigating the issue, assuming it was due to a network problem.
+2:20 PM: After verifying that the network was not the issue, the team started investigating the server.
+2:30 PM: The team identified that the server had crashed due to high traffic.
+2:40 PM: The team attempted to restart the server, but it failed to come back online.
+3:00 PM: The incident was escalated to senior management and the development team.
+3:30 PM: The website was restored after the development team deployed a new server.
+Root Cause and Resolution:
+
+The root cause of the issue was a surge in traffic to the website. The server was not equipped to handle the sudden influx of users, causing it to crash. The team resolved the issue by deploying a new server that was better equipped to handle high traffic.
+
+Corrective and Preventative Measures:
+
+To prevent similar issues from occurring in the future, the following measures will be taken:
+
+Upgrade server capacity to handle high traffic.
+Implement load balancing to distribute traffic evenly among servers.
+Conduct load testing to simulate high traffic scenarios and identify potential issues.
+Implement an automated failover system to ensure that the website remains available even if one server fails.
+Tasks to address the issue:
+
+Purchase and install new servers with higher capacity.
+Configure load balancing to distribute traffic evenly.
+Set up load testing to identify potential issues.
+Implement an automated failover system.
